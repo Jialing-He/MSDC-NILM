@@ -3,12 +3,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-# from attention_layer import AttentionLayer
-from attention_layer import ExternalAttention
-from attention_layer import SimplifiedScaledDotProductAttention as simp
-from attention_layer import ScaledDotProductAttention as SA
-from attention_layer import MultiHeadExternalAttention as multiEA
-from attention_layer import EMSA
 from crf import CRF
 from er import EntropyRegularization
 
